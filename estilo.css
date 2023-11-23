@@ -9,20 +9,16 @@ body {
 }
 
 .navbar {
-  background-color: #0053A6;
-  color: #fff;
+  background-color: #363D45;
+  color: #FFFF;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px;
 }
 
-.navbar .social-icons {
-  display: flex;
-  align-items: center;
-}
 
-.navbar .social-icons a {
+.navbar {
   color: #fff;
   margin-left: 10px;
   font-size: 20px;
@@ -38,6 +34,52 @@ body {
   margin: 0;
   margin-right: 10px;
 }
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px; /* Ajusta según tus necesidades */
+}
+
+.nav-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-links li {
+  margin-right: 20px; /* Ajusta según tus necesidades */
+}
+
+.social-icons {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.social-icons li {
+  margin-right: 10px; /* Ajusta según tus necesidades */
+}
+
+.icon {
+  font-size: 20px; /* Ajusta según tus necesidades */
+}
+
+
+/* Estilo inicial para los iconos */
+.fa-instagram, .fa-linkedin, .fa-facebook {
+  color: #1B9DC2;
+}
+
+
+/* Estilo al pasar el mouse por encima de los iconos */
+.fa-instagram:hover, .fa-linkedin:hover, .fa-facebook:hover {
+  color: #363D45;
+}
+
 
 /* Estilos para dispositivos móviles */
 @media screen and (max-width: 768px) {
@@ -89,7 +131,7 @@ body {
 }
 
 .navigation ul li a {
-  color: #7A7A7A;
+  color: #363;
   text-decoration: none;
   margin: 6px;
   transition: color 0.3s; /* Transición suave para el cambio de color */
@@ -99,14 +141,15 @@ body {
 
 
 .navigation ul li a:hover {
-  color: #0053A6;
+  color: #1B9DC2;
+  font-weight: bold;
 }
 
 /*seccion imagen portada*/
 
 .main-section {
-  background-color: #0053A6;
-  background-image: radial-gradient(#444cf7 0.5px, transparent 0.5px), radial-gradient(#444cf7 0.5px, #0053A6 0.5px);
+  background-color: #1B9DC2;
+  background-image: radial-gradient(#1B9DC2 0.5px, transparent 0.5px), radial-gradient(#1B9DC2 0.5px, #1B9DC2 0.5px);
   background-size: 20px 20px;
   background-position: 0 0, 10px 10px;
   overflow: hidden;
@@ -121,9 +164,10 @@ body {
 
 .text-container {
   flex: 1;
-  background-color: #0053A6;
+  background-color: #1B9DC2;
   padding: 40px;
-  color: white;
+  color: #E6E6E6;
+  font-weight: bold;
 }
 
 .title-2 {
@@ -186,7 +230,7 @@ body {
 }
 
 .item button {
-  background-color: #0053A6;
+  background-color: #1B9DC2;
   color: white;
   padding: 10px 20px;
   border: none;
@@ -254,7 +298,7 @@ body {
 }
 
 .footer {
-  background-color: #0053A6;
+  background-color: #333333;
   color: white;
   padding: 20px;
   display: flex;
@@ -409,7 +453,7 @@ body {
 
 /* Estilos para la portada */
 .portada-section {
-  background-image: url("./imagen1/historia-clinica.jpg");
+  background-image: url("./imagen1/foto_para_portada_de_quienes_somos_de_una_sitio_.jpg");
   background-size: cover;
   background-position: center;
   height: 100vh; /* Ajusta el alto según tus preferencias */
@@ -549,7 +593,7 @@ a:hover {
 
 /* Estilos para la portada 3*/
 .portada-section-3 {
-  background-image: url("./imagen1/cirugia-correcta.png");
+  background-image: url("./imagen1/foto_para_portada_de_quienes_somos_de_una_sitio_.jpg");
   background-size: cover;
   background-position: center;
   height: 100vh; /* Ajusta el alto según tus preferencias */
