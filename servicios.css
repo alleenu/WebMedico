@@ -7,176 +7,187 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
-  }
-  
-  .navbar {
+}
+
+.navbar {
     background-color: #363D45;
     color: #FFFF;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-  }
-  
-  
-  
-  .navbar {
+}
+
+
+
+.navbar {
     color: #fff;
     margin-left: 10px;
     font-size: 20px;
     text-decoration: none;
-  }
-  
-  .navbar .contact-info {
+}
+
+.navbar .contact-info {
     display: flex;
     align-items: center;
-  }
-  
-  .navbar .contact-info p {
+}
+
+.navbar .contact-info p {
     margin: 0;
     margin-right: 10px;
-  }
-  
-  .navigation {
+}
+
+.navigation {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px; /* Ajusta según tus necesidades */
-  }
-  
-  .nav-links {
+    padding: 10px 20px;
+    /* Ajusta según tus necesidades */
+}
+
+.nav-links {
     list-style: none;
     margin: 0;
     padding: 0;
     display: flex;
-  }
-  
-  .nav-links li {
-    margin-right: 20px; /* Ajusta según tus necesidades */
-  }
-  
-  .social-icons {
+}
+
+.nav-links li {
+    margin-right: 20px;
+    /* Ajusta según tus necesidades */
+}
+
+.social-icons {
     list-style: none;
     margin: 0;
     padding: 0;
     display: flex;
-  }
-  
-  .social-icons li {
-    margin-right: 10px; /* Ajusta según tus necesidades */
-  }
-  
-  .icon {
-    font-size: 20px; /* Ajusta según tus necesidades */
-  }
-  
-  
-  /* Estilo inicial para los iconos */
-  .fa-instagram, .fa-linkedin, .fa-facebook {
+}
+
+.social-icons li {
+    margin-right: 10px;
+    /* Ajusta según tus necesidades */
+}
+
+.icon {
+    font-size: 20px;
+    /* Ajusta según tus necesidades */
+}
+
+
+/* Estilo inicial para los iconos */
+.fa-instagram,
+.fa-linkedin,
+.fa-facebook {
     color: #1B9DC2;
-  }
-  
-  
-  /* Estilo al pasar el mouse por encima de los iconos */
-  .fa-instagram:hover, .fa-linkedin:hover, .fa-facebook:hover {
+}
+
+
+/* Estilo al pasar el mouse por encima de los iconos */
+.fa-instagram:hover,
+.fa-linkedin:hover,
+.fa-facebook:hover {
     color: #363D45;
-  }
-  
-  
-  /* Estilos para dispositivos móviles */
-  @media screen and (max-width: 768px) {
+}
+
+
+/* Estilos para dispositivos móviles */
+@media screen and (max-width: 768px) {
     .navbar {
-      flex-direction: column;
-      align-items: flex-start;
+        flex-direction: column;
+        align-items: flex-start;
     }
-  
+
     .navbar .social-icons {
-      margin-top: 10px;
+        margin-top: 10px;
     }
-  }
-  
-  .full-width-section {
+}
+
+.full-width-section {
     background-color: #ffffff;
     padding: 20px;
-  }
-  
-  .container {
+}
+
+.container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-  }
-  
-  .logo img {
+}
+
+.logo img {
     width: 100px;
     margin-left: 30px;
     /* Ajusta el tamaño del logo según tus necesidades */
-  }
-  
-  /*estilos menu de navegacion*/
-  /* Estilos para la sección con el título y el logo */
-  
-  
-  .container {
+}
+
+/*estilos menu de navegacion*/
+/* Estilos para la sección con el título y el logo */
+
+
+.container {
     display: flex;
     align-items: center;
-  }
-  
-  .navigation ul {
+}
+
+.navigation ul {
     list-style: none;
     margin: 0;
     padding: 0;
     display: flex;
-  }
-  
-  .navigation ul li {
+}
+
+.navigation ul li {
     margin-right: 10px;
-  }
-  
-  .navigation ul li a {
+}
+
+.navigation ul li a {
     color: #363;
     text-decoration: none;
     margin: 6px;
-    transition: color 0.3s; /* Transición suave para el cambio de color */
-  }
-  
-  
-  
-  
-  .navigation ul li a:hover {
+    transition: color 0.3s;
+    /* Transición suave para el cambio de color */
+}
+
+
+
+
+.navigation ul li a:hover {
     color: #1B9DC2;
     font-weight: bold;
-  }
+}
 
-  /*portada*/
+/*portada*/
 
 .portada-title {
     font-size: 48px;
     font-weight: bold;
-    color: #0053A6; /* Color del texto */
+    color: #0053A6;
+    /* Color del texto */
     font-weight: bold;
-    padding: 20px 40px; /* Ajusta el espaciado del fondo del título */
+    padding: 20px 40px;
+    /* Ajusta el espaciado del fondo del título */
     text-align: center;
-  }
+}
 
 
 
-  
-  .footer {
+
+.footer {
     background-color: #333333;
     color: white;
     padding: 20px;
     display: flex;
     align-items: flex-start;
     flex-wrap: wrap;
-  }
-  
-  .footer-logo img {
+}
+
+.footer-logo img {
     width: 100px;
     height: auto;
     margin-bottom: 10px;
-  }
-  
-  .footer-content {
+}
+
+.footer-content {
     display: flex;
     flex-grow: 1;
     justify-content: space-between;
@@ -184,65 +195,65 @@ body {
     gap: 20px;
     margin-left: 20px;
     flex-wrap: wrap;
-  }
-  
-  .footer-column {
+}
+
+.footer-column {
     flex-basis: calc(33.33% - 20%);
-  }
-  
-  .footer-column h4 {
+}
+
+.footer-column h4 {
     font-size: 16px;
     margin-bottom: 10px;
-  }
-  
-  .footer-column ul {
+}
+
+.footer-column ul {
     list-style: none;
     padding: 0;
     margin: 0;
-  }
-  
-  .footer-column ul li {
+}
+
+.footer-column ul li {
     margin-bottom: 5px;
-  }
-  
-  .footer-column p {
+}
+
+.footer-column p {
     margin-bottom: 5px;
-  }
-  
-  .footer-column.footer-contact {
+}
+
+.footer-column.footer-contact {
     flex-basis: 100%;
     display: flex;
     align-items: flex-start;
     flex-wrap: wrap;
     gap: 20px;
-  }
-  
-  .footer-column.footer-contact p {
+}
+
+.footer-column.footer-contact p {
     margin: 0;
-  }
-  
-  .footer-column.footer-contact a {
+}
+
+.footer-column.footer-contact a {
     color: white;
     transition: color 0.3s;
-  }
-  
-  .footer-column.footer-contact a:hover {
+}
+
+.footer-column.footer-contact a:hover {
     color: #0053A6;
-  }
-  
-  .footer-column.footer-contact .footer-contacts {
+}
+
+.footer-column.footer-contact .footer-contacts {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-  }
-  
-  .footer-column.footer-contact .footer-contacts p {
+}
+
+.footer-column.footer-contact .footer-contacts p {
     margin: 0;
-  }
-  
+}
 
 
-  /*Services Section*/
+
+/*Services Section*/
 
 .section-title {
     margin-bottom: 60px;
@@ -267,13 +278,14 @@ section.services-section {
 
 /*Hero Banner*/
 
-.hero-banner{
-	background: url("./imagen1/services2.jpg") no-repeat;
-	background-size: cover;
-	padding: 80px 0px;
-	min-height: 100px;
-	position: relative;
+.hero-banner {
+    background: url("./imagen1/services2.jpg") no-repeat;
+    background-size: cover;
+    padding: 80px 0px;
+    min-height: 100px;
+    position: relative;
 }
+
 .hero-banner:before {
     content: "";
     position: absolute;
@@ -283,11 +295,12 @@ section.services-section {
     right: 0;
     top: 0;
     bottom: 0;
-    
+
 }
-.banner-text-wrap h1{
-	font-size:60px;
-	font-weight: 700;
+
+.banner-text-wrap h1 {
+    font-size: 60px;
+    font-weight: 700;
 }
 
 .btn {
@@ -301,19 +314,23 @@ section.services-section {
     background: #FFF;
     color: var(--color-primary);
 }
+
 .banner-text-wrap {
     max-width: 600px;
 }
 
-.banner-text-wrap  p {
+.banner-text-wrap p {
     margin-bottom: 23px;
     margin-top: 15px;
 }
 
 .banner-title {
-    background-color: #3498db; /* Cambia el color según tus preferencias */
-    color: #fff; /* Cambia el color del texto según tus preferencias */
-    padding: 60px 20px;/* Ajusta el espaciado interno según tus necesidades */
+    background-color: #3498db;
+    /* Cambia el color según tus preferencias */
+    color: #fff;
+    /* Cambia el color del texto según tus preferencias */
+    padding: 60px 20px;
+    /* Ajusta el espaciado interno según tus necesidades */
     box-sizing: border-box;
     height: 100%;
     margin: 0;
@@ -327,6 +344,6 @@ section.services-section {
     text-align: center;
 }
 
-h1.text-white{
+h1.text-white {
     color: #000;
 }
