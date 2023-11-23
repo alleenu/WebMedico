@@ -160,7 +160,7 @@ body {
 
 
 .booking-section{
-    background:url("../images/booking-bg.jpg") no-repeat;
+    background:url("./images/booking-bg.jpg") no-repeat;
 background-size: cover;
 padding: 100px 0px;
 }
